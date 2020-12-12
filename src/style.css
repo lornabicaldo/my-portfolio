@@ -3,11 +3,11 @@ body {
 }
 
 header {
-  background-color: #e1ebe8;
+  background-color: #ffd4db;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 80px;
+  padding: 30px 80px;
 }
 
 .photo1 {
@@ -24,6 +24,52 @@ ul {
 ul li {
   display: inline-block;
   padding: 0px 15px;
+}
+
+.home {
+  margin: 1px auto;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0px 4px 4px 0px rgba(180, 59, 150, 0.966);
+  border: 1px solid #e24db0;
+  background: #faf8f9;
+  color: #f00606;
+}
+
+.projects {
+  margin: 1px auto;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 10px 24px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0px 4px 4px 0px rgba(180, 59, 150, 0.966);
+  border: 1px solid #e24db0;
+  background: #faf8f9;
+  color: #f00606;
+}
+
+.resume {
+  margin: 1px auto;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 10px 24px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0px 4px 4px 0px rgba(180, 59, 150, 0.966);
+  border: 1px solid #e24db0;
+  background: #faf8f9;
+  color: #f00606;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  background-color: #f89cab;
+  color: #131212;
 }
 
 h1 {
