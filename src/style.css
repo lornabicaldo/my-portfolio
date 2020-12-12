@@ -72,12 +72,15 @@ button:hover {
   color: #131212;
 }
 
-h1 {
-  color: blue;
+h1,
+h2 {
+  font-family: "Niconne", cursive;
   text-align: center;
 }
 
 p {
+  font-family: "Charm", cursive;
+  font-size: 24px;
   text-align: center;
 }
 
